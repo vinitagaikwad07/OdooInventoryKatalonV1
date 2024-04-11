@@ -21,11 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F')
 
-WebUI.setText(findTestObject('Object Repository/Page_Odoo/input_Email_login'), 'boybawang1900@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Odoo_loginPage/txt_Email'), 'boybawang1900@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Odoo/input_Password_password'), 'BWmL3ZBMbKX7ZHcpGR4b/Q==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Odoo_loginPage/txt_Password'), 'BWmL3ZBMbKX7ZHcpGR4b/Q==')
 
-WebUI.click(findTestObject('Object Repository/Page_Odoo/button_Log in'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Odoo_loginPage/btn_Login'))
 
