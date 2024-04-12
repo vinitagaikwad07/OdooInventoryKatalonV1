@@ -17,5 +17,17 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login to Odoo Inventory ERP System</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e79ef5ae-bb81-4eb4-ac72-85bfacf6a8f8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2451d822-fc41-4ca7-9b52-8611e3f0e5db</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -17,13 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login to Odoo Inventory ERP System'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://freelance25.odoo.com/web/login?redirect=%2Fodoo%3F')
+WebUI.click(findTestObject('Object Repository/Page_/img_Dashboards_o_app_icon rounded-3'))
 
-WebUI.setText(findTestObject('Object Repository/Odoo_loginPage/txt_Email'), 'Email')
+WebUI.click(findTestObject('Object Repository/inventoryPage/span_Operations'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Odoo_loginPage/txt_Password'), 'BWmL3ZBMbKX7ZHcpGR4b/Q==')
+WebUI.click(findTestObject('Object Repository/inventoryPage/a_Scrap'))
 
-WebUI.click(findTestObject('Object Repository/Odoo_loginPage/btn_Login'))
+WebUI.click(findTestObject('Object Repository/Page_Scrap Orders/button_New'))
+
+WebUI.click(findTestObject('Object Repository/Page_New/input_Product_product_id_0'))
+
+WebUI.click(findTestObject('Object Repository/Page_New/a_8K Monitor'))
+
+WebUI.click(findTestObject('Object Repository/Page_New/input_Scrap Location_scrap_location_id_0'))
+
+WebUI.click(findTestObject('Object Repository/Page_New/a_WH1Scrap'))
+
+WebUI.click(findTestObject('Object Repository/Page_New/span_Validate'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_SP00006/p_Scrap created'), 'Scrap created')
+
+WebUI.click(findTestObject('Object Repository/Page_SP00006/a_Scrap Orders'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Scrap Orders/td_8K Monitor'), '8K Monitor')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Scrap Orders/span_Done'), 'Done')
 
