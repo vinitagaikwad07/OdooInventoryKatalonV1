@@ -25,23 +25,23 @@ WebUI.click(findTestObject('Object Repository/inventoryPage/span_Operations'))
 
 WebUI.click(findTestObject('Object Repository/inventoryPage/a_Scrap'))
 
-WebUI.click(findTestObject('Object Repository/Page_Scrap Orders/button_New'))
+WebUI.click(findTestObject('Object Repository/newScrapOders_page/button_New'))
 
-WebUI.click(findTestObject('Object Repository/Page_New/input_Product_product_id_0'))
+WebUI.click(findTestObject('Object Repository/allScrapOrders_page/input_Product_product_id_0'))
 
-WebUI.click(findTestObject('Object Repository/Page_New/a_8K Monitor'))
+WebUI.click(findTestObject('Object Repository/allScrapOrders_page/a_8K Monitor'))
 
-WebUI.click(findTestObject('Object Repository/Page_New/input_Scrap Location_scrap_location_id_0'))
+WebUI.click(findTestObject('Object Repository/allScrapOrders_page/input_Scrap Location_scrap_location_id_0'))
 
-WebUI.click(findTestObject('Object Repository/Page_New/a_WH1Scrap'))
+WebUI.click(findTestObject('Object Repository/allScrapOrders_page/a_WH1Scrap'))
 
-WebUI.click(findTestObject('Object Repository/Page_New/span_Validate'))
+WebUI.click(findTestObject('Object Repository/allScrapOrders_page/span_Validate'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_SP00006/p_Scrap created'), 'Scrap created')
 
 WebUI.click(findTestObject('Object Repository/Page_SP00006/a_Scrap Orders'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Scrap Orders/td_8K Monitor'), '8K Monitor')
+WebUI.verifyElementText(findTestObject('Object Repository/newScrapOders_page/td_8K Monitor'), '8K Monitor')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Scrap Orders/span_Done'), 'Done')
+WebUI.verifyElementText(findTestObject('Object Repository/newScrapOders_page/span_Done'), 'Done')
 
