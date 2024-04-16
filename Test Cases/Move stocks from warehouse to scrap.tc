@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Move stocks from warehouse to scrap</name>
-   <tag>Scrap Inventory</tag>
-   <comment></comment>
-   <testCaseGuid>cc0ea63c-fda6-44da-a8b9-5fdc131b0fc5</testCaseGuid>
-</TestCaseEntity>
