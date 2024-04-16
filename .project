@@ -304,6 +304,7 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1712938882906</id>
 			<name></name>
 			<type>10</type>
@@ -440,6 +441,18 @@
 		</filter>
 		<filter>
 			<id>1713281870733</id>
+=======
+			<id>1713192200630</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1713192200643</id>
+>>>>>>> branch 'main' of https://github.com/platonium1234/OdooInventoryKatalonV1
 			<name></name>
 			<type>6</type>
 			<matcher>
