@@ -23,11 +23,11 @@ WebUI.navigateToUrl('https://freelance25.odoo.com/web/login?redirect=%2Fodoo%2Fi
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Create Receipt_HM/Page_Odoo/input_Email_login'))
 
-WebUI.setText(findTestObject('Object Repository/Create Receipt_HM/Page_Odoo/input_Email_login'), 'haariadhii@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Create Receipt_HM/Page_Odoo/input_Email_login'), Email)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Create Receipt_HM/Page_Odoo/input_Password_password'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Create Receipt_HM/Page_Odoo/input_Password_password'), 'R2dZ4hvJ2ujHsHy73bgf8Q==')
+WebUI.setText(findTestObject('Object Repository/Create Receipt_HM/Page_Odoo/input_Password_password'), Password)
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Create Receipt_HM/Page_Odoo/button_Log in'))
 
