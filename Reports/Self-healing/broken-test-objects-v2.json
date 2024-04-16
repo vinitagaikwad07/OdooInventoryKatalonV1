@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create Receipt/Page_/a_8K Monitor",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Demand\u0027])[1]/following::a[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027​\u0027])[1]/preceding::a[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create Receipt/Page_/a_8K Monitor_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create Receipt/Page_/input_Demand_o-autocomplete--input o_input",
+      "brokenLocator": "(//input[@type\u003d\u0027text\u0027])[6]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@type \u003d \u0027text\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create Receipt/Page_/input_Demand_o-autocomplete--input o_input_customAttributes.png"
+    }
+  ]
 }

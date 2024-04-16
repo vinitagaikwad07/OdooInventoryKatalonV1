@@ -17,3 +17,51 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://freelance25.odoo.com/web/login?redirect=%2Fodoo%2Finventory%3Fcids%3D1')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Create Receipt_HM/Page_Odoo/input_Email_login'))
+
+WebUI.setText(findTestObject('Object Repository/Create Receipt_HM/Page_Odoo/input_Email_login'), 'haariadhii@gmail.com')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Create Receipt_HM/Page_Odoo/input_Password_password'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Create Receipt_HM/Page_Odoo/input_Password_password'), 'R2dZ4hvJ2ujHsHy73bgf8Q==')
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Create Receipt_HM/Page_Odoo/button_Log in'))
+
+WebUI.click(findTestObject('Object Repository/Create Receipt_HM/Page_Odoo/button_Log in'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Create Receipt_HM/Page_Inventory Adjustments/span_Inventory'))
+
+WebUI.click(findTestObject('Object Repository/Create Receipt_HM/Page_Inventory Adjustments/span_Inventory'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Create Receipt_HM/Page_/div_Inventory'))
+
+WebUI.click(findTestObject('Object Repository/Create Receipt_HM/Page_/div_Inventory'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Create Receipt_HM/Page_Inventory Overview/span_Receipts'))
+
+WebUI.click(findTestObject('Object Repository/Create Receipt_HM/Page_Inventory Overview/span_Receipts'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Create Receipt_HM/Page_Main Warehouse Receipts/button_New'))
+
+WebUI.click(findTestObject('Object Repository/Create Receipt_HM/Page_Main Warehouse Receipts/button_New'))
+
+WebUI.click(findTestObject('Object Repository/Create Receipt_HM/Page_/input_Receive From_partner_id_0'))
+
+WebUI.click(findTestObject('Object Repository/Create Receipt_HM/Page_/a_Hari Manikandan'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Create Receipt_HM/Page_/a_Add a line'))
+
+WebUI.click(findTestObject('Create Receipt_HM/Page_/input_Demand_o-autocomplete--input o_input'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Create Receipt_HM/Page_/a_8K Monitor'))
+
+WebUI.setText(findTestObject('Create Receipt_HM/Page_/input_Demand_o_input'), '500')
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Create Receipt_HM/Page_/span_Validate'))
+
+WebUI.click(findTestObject('Object Repository/Create Receipt_HM/Page_/span_Validate'))
+
